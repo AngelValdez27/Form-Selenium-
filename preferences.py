@@ -6,7 +6,7 @@ class Init:
         self.temp_preferences=any
 
     def open_json(self):
-        return open('data/data.json', "r")
+        return open('data/siautt.json', "r")
         
     def get_preferences(self):
         ruta = self.open_json()

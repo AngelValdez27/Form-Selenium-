@@ -32,11 +32,10 @@ class Uno:
         self.__driver.get(self.__url)
 
     def set_data(self):
-        for attr, values in self.__elements.__dict__.items():
-            for data in values:
+        for data in self.__elements:
                 element = WebDriverWait(self.__driver,5).until(exp.element_to_be_clickable
                 ((By.XPATH,data.xpath)))
-                if attr == "input":
+                if data.event == "input":
                     element.send_keys(data.value)
                 else:
                     element.click()

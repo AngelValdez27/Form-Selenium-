@@ -6,48 +6,46 @@
         "time":3,
         "delay":0.5
     },
-    "elements":{
-      "input":[
+    "elements":[
         {
+          "event":"input",
           "value":"Angel Valdez",
           "xpath":"/html/body/div/section/article/form/div/div[1]/input[1]"   
         },
         {
+          "event":"input",
           "value":"28",
           "xpath":"/html/body/div/section/article/form/div/div[1]/input[2]"   
-        }
-      ],
-      "select":[
+        },
         {
+          "event":"select",
           "value":"2",
           "xpath":"/html/body/div/section/article/form/div/div[1]/select/option[3]"
         },
         {
-          "value":"2",
-          "xpath":"/html/body/div/section/article/form/div/div[2]/select/option[4]"
-        }
-      ],
-      "radio":[
-        {
+          "event":"radio",
           "value":"1",
           "xpath":"/html/body/div/section/article/form/div/div[1]/div[1]/input"
-        }
-      ],
-      "checkbox":[
+        },
         {
+          "event":"checkbox",
           "value":"",
           "xpath":"/html/body/div/section/article/form/div/div[2]/label[2]/input"
         },
         {
+          "event":"checkbox",
           "value":"",
           "xpath":"/html/body/div/section/article/form/div/div[2]/label[4]/input"
-        }
-      ],
-      "button":[
+        },
         {
+          "event":"select",
+          "value":"2",
+          "xpath":"/html/body/div/section/article/form/div/div[2]/select/option[4]"
+        },
+        {
+          "event":"button",
           "value":"",
           "xpath":"/html/body/div/section/article/form/button"
         }
-      ]
-    }
+  ]
 }
